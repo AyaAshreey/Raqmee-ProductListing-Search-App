@@ -177,7 +177,7 @@
 </template>
 
 <script>
-localStorage.removeItem('id', '1727298785482');
+// localStorage.removeItem('id', '1727298785482');
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
 import 'swiper/swiper-bundle.css';
 import { Pagination, Navigation } from "swiper";
@@ -267,7 +267,6 @@ export default {
     },
     mounted() {
         this.loadProducts();
-
     },
     methods: {
         showAlert() {
